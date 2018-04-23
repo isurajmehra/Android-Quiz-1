@@ -73,7 +73,7 @@
 
                <Button
                    android:id="@+id/btn_sign_up"
-                   android:text="Зарегистрироваться"
+                   android:text="Регистрация"
                    style="@style/Widget.AppCompat.Button.Colored"
                    android:layout_weight="1"
                    android:layout_width="0dp"
