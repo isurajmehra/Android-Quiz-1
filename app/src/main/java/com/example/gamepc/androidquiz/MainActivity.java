@@ -1,6 +1,7 @@
 package com.example.gamepc.androidquiz;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -66,7 +67,11 @@ public class MainActivity extends AppCompatActivity {
                     {
                         User login = dataSnapshot.child(user).getValue(User.class);
                         if(login.getPassword().equals(pwd))
-                            Toast.makeText(MainActivity.this, "Введен правильный логин", Toast.LENGTH_SHORT).show();
+                        {
+                            Intent homeActivity = new Intent(MainActivity.this,Home.class);
+                            startActivity(homeActivity);
+                            finish();
+                        }
                         else
                             Toast.makeText(MainActivity.this, "Неверный логин/пароль", Toast.LENGTH_SHORT).show();
                     }

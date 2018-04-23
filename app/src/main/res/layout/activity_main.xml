@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/blur_background_6z_540x960"
     tools:context="com.example.gamepc.androidquiz.MainActivity">
 
 
@@ -73,7 +73,7 @@
 
                <Button
                    android:id="@+id/btn_sign_up"
-                   android:text="Sign Up"
+                   android:text="Зарегистрироваться"
                    style="@style/Widget.AppCompat.Button.Colored"
                    android:layout_weight="1"
                    android:layout_width="0dp"
@@ -81,7 +81,7 @@
 
                <Button
                    android:id="@+id/btn_sign_in"
-                   android:text="Sign In"
+                   android:text="Войти"
                    style="@style/Widget.AppCompat.Button.Colored"
                    android:layout_weight="1"
                    android:layout_width="0dp"
