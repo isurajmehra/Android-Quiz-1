@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.gamepc.androidquiz.Common.Common;
 import com.example.gamepc.androidquiz.Model.User;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
                         if(login.getPassword().equals(pwd))
                         {
                             Intent homeActivity = new Intent(MainActivity.this,Home.class);
+                            Common.currentUser = login;
                             startActivity(homeActivity);
                             finish();
                         }
