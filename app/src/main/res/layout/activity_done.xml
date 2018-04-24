@@ -23,7 +23,7 @@
 
             <TextView
                 android:id="@+id/txtTotalScore"
-                android:text="Score : 0"
+                android:text="Счет : 0"
                 android:textSize="30sp"
                 android:textColor="@android:color/white"
                 android:layout_width="wrap_content"
@@ -31,7 +31,7 @@
 
             <TextView
                 android:id="@+id/txtTotalQuestion"
-                android:text="Passed : 0/30"
+                android:text="Пройдено : 0/30"
                 android:textSize="30sp"
                 android:textColor="@android:color/white"
                 android:layout_width="wrap_content"

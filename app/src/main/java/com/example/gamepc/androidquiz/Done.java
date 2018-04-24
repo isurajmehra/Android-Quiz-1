@@ -55,8 +55,8 @@ public class Done extends AppCompatActivity {
             int totalQuestion = extra.getInt("TOTAL");
             int correctAnswer = extra.getInt("CORRECT");
 
-            txtResultScore.setText(String.format("SCORE : %d",score));
-            getTxtResultQuestion.setText(String.format("PASSED : %d / %d",correctAnswer,totalQuestion));
+            txtResultScore.setText(String.format("Счет : %d",score));
+            getTxtResultQuestion.setText(String.format("Пройдено : %d / %d",correctAnswer,totalQuestion));
 
             progressBar.setMax(totalQuestion);
             progressBar.setProgress(correctAnswer);

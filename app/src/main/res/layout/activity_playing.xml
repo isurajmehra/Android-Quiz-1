@@ -20,7 +20,8 @@
     <TextView
         android:id="@+id/question_text"
         android:visibility="invisible"
-        android:textSize="16pt"
+        android:textSize="14pt"
+        android:textColor="@android:color/white"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
